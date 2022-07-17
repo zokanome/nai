@@ -4,14 +4,13 @@
 .container-fluid{
 	width: 100%
 }
-
 .container-lg{width:1280px;margin: 0 auto}
 .container{width:1110px;margin: 0 auto;overflow: hidden}
 .row{
 	display: flex;
 }
 .row>[class*="col-"]{
-	padding: 4px;
+	padding: 0px;
 }
 /*Justify*/
 .justify-between{
@@ -74,7 +73,7 @@
 	width: 25%
 }
 .col-4{
-	width: 33.33%;
+	width: 33.33%
 }
 .col-5{
 	width: 41.66%
